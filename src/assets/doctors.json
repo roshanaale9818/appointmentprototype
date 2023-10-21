@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "specialist": "Cardiologist",
+    "name": "Dr. Sarah Johnson"
+  },
+  {
+    "id": 2,
+    "specialist": "Pediatrician",
+    "name": "Dr. Michael Lee"
+  },
+  {
+    "id": 3,
+    "specialist": "Dermatologist",
+    "name": "Dr. Emily Davis"
+  },
+  {
+    "id": 4,
+    "specialist": "Orthopedic Surgeon",
+    "name": "Dr. Christopher Wilson"
+  },
+  {
+    "id": 5,
+    "specialist": "Gynecologist",
+    "name": "Dr. Amanda Martinez"
+  },
+  {
+    "id": 6,
+    "specialist": "Neurologist",
+    "name": "Dr. James Clark"
+  },
+  {
+    "id": 7,
+    "specialist": "Ophthalmologist",
+    "name": "Dr. Jennifer White"
+  },
+  {
+    "id": 8,
+    "specialist": "ENT Specialist",
+    "name": "Dr. Robert Smith"
+  },
+  {
+    "id": 9,
+    "specialist": "Psychiatrist",
+    "name": "Dr. Elizabeth Turner"
+  },
+  {
+    "id": 10,
+    "specialist": "Endocrinologist",
+    "name": "Dr. Daniel Brown"
+  }
+]

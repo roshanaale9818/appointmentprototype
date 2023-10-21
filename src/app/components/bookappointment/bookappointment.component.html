@@ -1,0 +1,40 @@
+<div class="home-wrap" style="padding: 20px;">
+  <div class="search_containern row">
+      <div class="search-wrap card col-12" style="padding: 30px;">
+        <div class="label text-center">
+          <label for="search" class="label">
+            <p class="fw-bold fs-5">{{bookingObject?.hospitalName}}</p>
+          </label>
+        </div>
+      </div>
+
+
+      <div class="hospital-list-wrap" style="height: 500px; overflow: scroll;margin-top: 15px;">
+          <ng-container>
+            <div class="hospital-item card mt-2"  style="padding: 10px;">
+              <label for="search" class="label">
+                <p class="fw-bold fs-5 text-center">Book Appointment</p>
+              </label>
+              <div>
+                <label class="mb-1">Doctor</label>
+                <p class="fw-bold">{{bookingObject?.doctorName}}</p>
+              </div>
+              <div>
+                <label class="mb-1">Date</label>
+                <input type="date" class="form-control" [(ngModel)]="this.selectedBooking.date"/>
+              </div>
+              <div style="margin-top: 20px;">
+                <label class="mb-1">Time</label>
+               <ng-container *ngFor="let item of timeList">
+                <span class="badge" [ngClass]="{'text-bg-info': (item!==selectedBooking.time),'text-bg-success': (item===selectedBooking.time)}" (click)="onTimeChange(item)" style="margin: 5px;cursor: pointer;">{{item}}</span>
+               </ng-container>
+              </div>
+
+              <button class="btn btn-success mt-2" (click)="onBook()">Book</button>
+              <button class="btn btn-secondary mt-2" (click)="onGotoMainPage()">Back to Main</button>
+
+            </div>
+          </ng-container>
+      </div>
+  </div>
+  </div>

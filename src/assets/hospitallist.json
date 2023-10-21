@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "name": "City Hospital",
+    "distance_km": 5.2,
+    "price": 100
+  },
+  {
+    "id": 2,
+    "name": "Central Medical Center",
+    "distance_km": 8.7,
+    "price": 120
+  },
+  {
+    "id": 3,
+    "name": "Sunset Health Clinic",
+    "distance_km": 3.5,
+    "price": 80
+  },
+  {
+    "id": 4,
+    "name": "Riverside Hospital",
+    "distance_km": 12.1,
+    "price": 150
+  },
+  {
+    "id": 5,
+    "name": "Greenwood Medical Center",
+    "distance_km": 6.8,
+    "price": 110
+  },
+  {
+    "id": 6,
+    "name": "Hilltop General Hospital",
+    "distance_km": 9.3,
+    "price": 130
+  },
+  {
+    "id": 7,
+    "name": "Pineview Health Center",
+    "distance_km": 2.1,
+    "price": 70
+  },
+  {
+    "id": 8,
+    "name": "Maple Grove Hospital",
+    "distance_km": 7.6,
+    "price": 115
+  },
+  {
+    "id": 9,
+    "name": "Oceanfront Medical Clinic",
+    "distance_km": 10.5,
+    "price": 140
+  },
+  {
+    "id": 10,
+    "name": "Highland Health Care",
+    "distance_km": 4.3,
+    "price": 90
+  }
+]
